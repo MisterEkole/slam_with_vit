@@ -97,7 +97,5 @@ for epoch in range(start_epoch, opt.niter+opt.niter_decay+1):
 
 
 
-
-
-
+#write a pytorch training loop for a vision transformer model
 
