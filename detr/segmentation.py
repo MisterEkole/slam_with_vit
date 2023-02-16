@@ -15,10 +15,12 @@ from PIL import Image
 import detr.box_ops as box_ops
 from detr.misc import NestedTensor, interpolate, nested_tensor_from_tensor_list
 
-try:
-   from panopticapi import id2rgb, rgb2id
+
+try: 
+    from panopticapiimport id2rgb,rgb2id
 except ImportError:
-  pass
+    pass
+
 
 
 class DETRsegm(nn.Module):
