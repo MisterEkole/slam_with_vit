@@ -12,6 +12,10 @@ This section presents an implementation of two models: a SOTA object detection b
 * libs contains options for training, testing and custom dataloaders for TUM, NYU, KITTI datasets.
 * Dependencies: requirements.txt
 
+DETR Architecture ![DETR](detr/DETR.png)
+
+Standard ViT Architecture ![ViT](vit-pytorch/VIT.png)
+
 PS: This is a work in progress, due to limited compute resource, I am yet to finetune the DETR model and standard vision transformer on TUM RGB-D dataset and run inference. Progressively, I'd do this.
 
 
